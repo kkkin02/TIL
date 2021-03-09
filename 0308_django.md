@@ -27,7 +27,9 @@
 ### 순서
 
 1. 프로젝트 생성
+   - `django-admin startproject 프로젝트이름 . `
 2. 앱 생성
-3. 앱 등록(settings에)
+   - `python manage.py startapp 앱이름`
+3. 앱 등록(settings - installed_apps)
 4. 앱 url 생성, 연결 (views 함수 정의, templates 작성)
 5. 앱 로직작성 
